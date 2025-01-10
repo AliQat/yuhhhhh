@@ -1,5 +1,5 @@
 'use client'
-
+import { getAssetPath } from '@/lib/utils'
 import { useState, useRef, useEffect } from 'react'
 import { motion, useSpring, useTransform, useMotionValue } from 'framer-motion'
 import {
@@ -42,7 +42,7 @@ interface Image {
 const images: Image[] = [
   {
     id: '1',
-    src: '/images/PersonalEMc_07,23.png',
+    src: getAssetPath('/images/PersonalEMc_07,23.png'),
     title: 'Personal Artwork - July 2023',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -50,7 +50,7 @@ const images: Image[] = [
   },
   {
     id: '2',
-    src: '/images/PersonalEMc,12,23.gif',
+    src: getAssetPath('/images/PersonalEMc,12,23.gif'),
     title: 'Personal Animation',
     technologies: [
       {name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png'},
@@ -59,7 +59,7 @@ const images: Image[] = [
   },
   {
     id: '3',
-    src: '/images/periwinkledragoon_06,24.png',
+    src: getAssetPath('/images/periwinkledragoon_06,24.png'),
     title: 'Periwinkle Dragoon',
     technologies:  [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -67,7 +67,7 @@ const images: Image[] = [
   },
   {
     id: '4',
-    src: '/images/image_06_24.png',
+    src: getAssetPath('/images/image_06_24.png'),
     title: 'June 2024 Artwork',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -75,7 +75,7 @@ const images: Image[] = [
   },
   {
     id: '5',
-    src: '/images/Hauntedburninglibrary_07,24.png',
+    src: getAssetPath('/images/Hauntedburninglibrary_07,24.png'),
     title: 'Haunted Burning Library',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -83,7 +83,7 @@ const images: Image[] = [
   },
   {
     id: '6',
-    src: '/images/ethelyn1_07,24.png',
+    src: getAssetPath('/images/ethelyn1_07,24.png'),
     title: 'Ethelyn Study 1',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -91,7 +91,7 @@ const images: Image[] = [
   },
   {
     id: '7',
-    src: '/images/ethelyn2_07,24.png',
+    src: getAssetPath('/images/ethelyn2_07,24.png'),
     title: 'Ethelyn Study 2',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -99,7 +99,7 @@ const images: Image[] = [
   },
   {
     id: '8',
-    src: '/images/whattocallu_07,24.png',
+    src: getAssetPath('/images/whattocallu_07,24.png'),
     title: 'What to Call You',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -107,7 +107,7 @@ const images: Image[] = [
   },
   {
     id: '9',
-    src: '/images/ethelynportraitangy1_08,24.png',
+    src: getAssetPath('/images/ethelynportraitangy1_08,24.png'),
     title: 'Ethelyn Portrait Study',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -115,7 +115,7 @@ const images: Image[] = [
   },
   {
     id: '10',
-    src: '/images/IMG_0125EMc,11,23.PNG',
+    src: getAssetPath('/images/IMG_0125EMc,11,23.PNG')  ,
     title: 'Character Study 1',
     technologies: [
       { name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png' }
@@ -123,7 +123,7 @@ const images: Image[] = [
   },
   {
     id: '11',
-    src: '/images/IMG_0126EMc_11,23.PNG',
+    src: getAssetPath('/images/IMG_0126EMc_11,23.PNG'),
     title: 'Character Study 2',
     technologies: [
       { name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png' }
@@ -131,7 +131,7 @@ const images: Image[] = [
   },
   {
     id: '12',
-    src: '/images/IMG_0127EMc_1123.PNG',
+    src: getAssetPath('/images/IMG_0127EMc_1123.PNG'),
     title: 'Character Study 3',
     technologies: [
       { name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png' }
@@ -139,7 +139,7 @@ const images: Image[] = [
   },
   {
     id: '13',
-    src: '/images/IMG_0129EMc_11,23.PNG',
+    src: getAssetPath('/images/IMG_0129EMc_11,23.PNG'),
     title: 'Character Study 4',
     technologies: [
       { name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png' }
@@ -147,7 +147,7 @@ const images: Image[] = [
   },
   {
     id: '14',
-    src: '/images/IMG_0142EMc_11,23.PNG',
+    src: getAssetPath('/images/IMG_0142EMc_11,23.PNG'),
     title: 'Character Study 5',
     technologies: [
       { name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png' }
@@ -155,7 +155,7 @@ const images: Image[] = [
   },
   {
     id: '15',
-    src: '/images/lunch_trade_10,24.png',
+    src: getAssetPath('/images/lunch_trade_10,24.png'),
     title: 'Lunch Trade',
     technologies: [
       { name: 'Photoshop', icon: 'icons/Adobe_Photoshop_CC_icon.svg.png' }
@@ -163,7 +163,7 @@ const images: Image[] = [
   },
   {
     id: '16',
-    src: '/images/Necromantic_10,24.png',
+    src: getAssetPath('/images/Necromantic_10,24.png'),
     title: 'Necromantic',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -171,7 +171,7 @@ const images: Image[] = [
   },
   {
     id: '17',
-    src: '/images/graveyard_10,24.png',
+    src: getAssetPath('/images/graveyard_10,24.png'),
     title: 'Graveyard',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -179,7 +179,7 @@ const images: Image[] = [
   },
   {
     id: '18',
-    src: '/images/brothers1_11,24.png',
+    src: getAssetPath('/images/brothers1_11,24.png'),
     title: 'Brothers Study 1',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -187,7 +187,7 @@ const images: Image[] = [
   },
   {
     id: '19',
-    src: '/images/brothers2_11,24.png',
+    src: getAssetPath('/images/brothers2_11,24.png'),
     title: 'Brothers Study 2',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -195,7 +195,7 @@ const images: Image[] = [
   },
   {
     id: '20',
-    src: '/images/brothers3_11,24.png',
+    src: getAssetPath('/images/brothers3_11,24.png'),
     title: 'Brothers Study 3',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -204,7 +204,7 @@ const images: Image[] = [
   },
   {
     id: '21',
-    src: '/images/farmwork1_11,24.png',
+    src: getAssetPath('/images/farmwork1_11,24.png'),
     title: 'Farm Work 1',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -213,7 +213,7 @@ const images: Image[] = [
   },
   {
     id: '22',
-    src: '/images/farmwork2_11,24.png',
+    src: getAssetPath('/images/farmwork2_11,24.png'),
     title: 'Farm Work 2',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -221,7 +221,7 @@ const images: Image[] = [
   },
   {
     id: '23',
-    src: '/images/farmwork3_11,24.png',
+    src: getAssetPath('/images/farmwork3_11,24.png'),
     title: 'Farm Work 3',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -230,7 +230,7 @@ const images: Image[] = [
   },
   {
     id: '24',
-    src: '/images/farmwork4_11,24.png',
+    src: getAssetPath('/images/farmwork4_11,24.png'),
     title: 'Farm Work 4',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }
@@ -239,7 +239,7 @@ const images: Image[] = [
   },
   {
     id: '25',
-    src: '/images/effyandemmy_12,24.png',
+    src: getAssetPath('/images/effyandemmy_12,24.png'),
     title: 'Effy and Emmy',
     technologies: [
       { name: 'FireAlpaca', icon: 'icons/firealpaca.png' }

@@ -8,6 +8,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { Card, CardContent } from "@/components/ui/card"
+import { getAssetPath } from '@/lib/utils'
 
 /*
     {name: 'Unity', icon: 'icons/unity.png'},
@@ -43,7 +44,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/Take a flower finalEMc,12,22.mp4'
+    url: getAssetPath('/videos/Take a flower finalEMc,12,22.mp4')
   },
   {
     id: '2',
@@ -54,7 +55,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/soundlandscapeEMc_11,23.mp4'
+    url: getAssetPath('/videos/soundlandscapeEMc_11,23.mp4')
   },
   {
     id: '3',
@@ -65,7 +66,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/GemHiest EMc_12,23.mp4'
+    url: getAssetPath('/videos/GemHiest EMc_12,23.mp4')
   },
   {
     id: '4',
@@ -76,7 +77,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/folley video falling overEMc,12,23.mp4'
+    url: getAssetPath('/videos/folley video falling overEMc,12,23.mp4')
   },
   {
     id: '5',
@@ -87,7 +88,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/stretchEMc_02,24.mp4'
+    url: getAssetPath('/videos/stretchEMc_02,24.mp4')
   },
   {
     id: '6',
@@ -98,7 +99,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/CHwalk_EMC,03,24.mp4'
+    url: getAssetPath('/videos/CHwalk_EMC,03,24.mp4')
   },
   {
     id: '7',
@@ -109,7 +110,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/CHHW06EMc_03,24.mp4'
+    url: getAssetPath('/videos/CHHW06EMc_03,24.mp4')
   },
   {
     id: '8',
@@ -120,7 +121,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/ACHHW01EMc_09,24.mp4'
+    url: getAssetPath('/videos/ACHHW01EMc_09,24.mp4')
   },
   {
     id: '9',
@@ -131,7 +132,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/ACHHW02EMc_10,24.mp4'
+    url: getAssetPath('/videos/ACHHW02EMc_10,24.mp4')
   },
   {
     id: '10',
@@ -142,7 +143,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/ACHHW03EMc_10,24.mp4'
+    url: getAssetPath('/videos/ACHHW03EMc_10,24.mp4')
   },
   {
     id: '11',
@@ -153,7 +154,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/ACHHW05EMc_11,24.mp4'
+    url: getAssetPath('/videos/ACHHW05EMc_11,24.mp4')
   },
   {
     id: '12',
@@ -164,7 +165,7 @@ const videos: Video[] = [
       {name: 'After Effects', icon: 'icons/Adobe_After_Effects_CC_icon.svg.png'}
     ],
     thumbnail: '',
-    url: '/videos/ACHHW06EMc_12,24.mp4'
+    url: getAssetPath('/videos/ACHHW06EMc_12,24.mp4')
   }
 ]
 
