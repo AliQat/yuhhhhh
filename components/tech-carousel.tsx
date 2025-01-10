@@ -34,7 +34,7 @@ const technologies = [
   },
   { 
     name: 'Figma',
-    image: '/icons/Figma.png',
+    image: 'icons/Figma.png',
     bgColor: 'bg-black',
     textColor: 'text-white'
   },
