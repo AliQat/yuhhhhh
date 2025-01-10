@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: '/yuhhhhh',
   images: {
     unoptimized: true,
+    loader: 'akamai',
+    path: '',
   },
 }
-
-module.exports = nextConfig
