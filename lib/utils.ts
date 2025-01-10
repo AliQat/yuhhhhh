@@ -6,6 +6,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 export function getAssetPath(path: string) {
   return process.env.NODE_ENV === 'production' 
-    ? `/yuhhhhh${path}` 
+    ? `/website${path}` 
     : path;
 }
