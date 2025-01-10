@@ -39,8 +39,8 @@ export default function Footer() {
               </a>
             </Button>
           </div>
-          <p className="text-sm text-gray-600">
-            © 2024 John Doe
+          <p className="text-sm text-gray-600 text-bounce">
+          Made by Ellen McNamara
           </p>
         </div>
       </div>
