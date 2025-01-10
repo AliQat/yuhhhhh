@@ -1,5 +1,5 @@
 'use client'
-
+import { getAssetPath } from '@/lib/utils'
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, Code2 } from 'lucide-react'
 const tech = [
@@ -19,7 +19,7 @@ export default function RecentProject() {
               className="w-full h-full object-cover"
               poster=""
             >
-              <source src="/videos/ubu finaldraftEMc_10,23.mp4" type="video/mp4" />
+              <source src={getAssetPath('/videos/ubu finaldraftEMc_10,23.mp4')} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

@@ -1,5 +1,5 @@
 'use client'
-
+import { getAssetPath } from '@/lib/utils'
 import { Canvas } from '@react-three/fiber'
 import { useRef, useState, useEffect } from 'react'
 import { useFrame } from '@react-three/fiber'
@@ -10,7 +10,7 @@ import { Group } from 'three'
 const technologies = [
   { 
     name: 'Unity',
-    image: '/icons/unity.png',
+    image: 'icons/unity.png',
     bgColor: 'bg-black',
     textColor: 'text-white'
   },
